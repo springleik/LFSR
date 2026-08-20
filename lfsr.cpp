@@ -13,7 +13,7 @@ main (int argc, const char *argv[])
   long long int len = 0;
   long long int tap = 0;
 
-  for (len = 7; len <= 33; len++)
+  for (len = 3; len <= 33; len++)
     for (tap = 1; tap < len; tap++)
       {
 	// initialize variables
@@ -59,4 +59,3 @@ main (int argc, const char *argv[])
   // return success
   return 0;
 }
-
